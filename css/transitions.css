@@ -6,3 +6,12 @@
 #ex01 article:hover {
   transform: scale(1.1);
 }
+
+#ex02 article img {
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#ex02 article:hover img {
+  transform: rotate(5deg);
+}
