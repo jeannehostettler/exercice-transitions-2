@@ -25,3 +25,12 @@
   color: orangered;
   opacity: 0.5;
 }
+
+#ex04 article .recipe-header {
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+#ex04 article:hover .recipe-header {
+  transform: translateX(15px);
+}
