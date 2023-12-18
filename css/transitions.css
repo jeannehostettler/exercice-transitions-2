@@ -1,0 +1,8 @@
+#ex01 article {
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#ex01 article:hover {
+  transform: scale(1.1);
+}
