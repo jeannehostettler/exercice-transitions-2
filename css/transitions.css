@@ -53,3 +53,22 @@
 #ex06 article:hover {
   padding-bottom: 30px;
 }
+
+#ex07 article {
+  transition-property: padding-bottom;
+  transition-duration: 0.5s;
+}
+
+#ex07 .recipe-title {
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#ex07 article:hover {
+  padding-bottom: 35px;
+}
+
+#ex07 article:hover .recipe-title {
+  transition-delay: 0.2s;
+  transform: translateY(40px);
+}
