@@ -34,3 +34,13 @@
 #ex04 article:hover .recipe-header {
   transform: translateX(15px);
 }
+
+#ex05 article .recipe-header {
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-delay: 0.3s;
+}
+
+#ex05 article:hover .recipe-header {
+  transform: translateX(20px);
+}
