@@ -15,3 +15,13 @@
 #ex02 article:hover img {
   transform: rotate(5deg);
 }
+
+#ex03 img {
+  transition-property: color, opacity;
+  transition-duration: 0.5s;
+}
+
+#ex03 img:hover {
+  color: orangered;
+  opacity: 0.5;
+}
