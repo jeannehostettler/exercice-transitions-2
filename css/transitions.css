@@ -44,3 +44,12 @@
 #ex05 article:hover .recipe-header {
   transform: translateX(20px);
 }
+
+#ex06 article {
+  transition-property: padding-bottom;
+  transition-duration: 0.5s;
+}
+
+#ex06 article:hover {
+  padding-bottom: 30px;
+}
