@@ -81,3 +81,13 @@
 #ex08 article:hover {
   box-shadow: 4px 4px 17px 11px rgba(0, 0, 0, 0.75);
 }
+
+#ex09 .recipe-header {
+  transition-property: transform;
+  transition-duration: 0.5s;
+  background-color: white;
+}
+
+#ex09 article:hover .recipe-header {
+  transform: translateY(-40px);
+}
