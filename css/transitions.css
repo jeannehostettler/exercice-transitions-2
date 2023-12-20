@@ -91,3 +91,16 @@
 #ex09 article:hover .recipe-header {
   transform: translateY(-40px);
 }
+
+#ex10 .recipe-image-wrapper {
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#ex10 img {
+  display: flex;
+}
+
+#ex10 .recipe-image-wrapper:hover {
+  transform: translateX(10px);
+}
